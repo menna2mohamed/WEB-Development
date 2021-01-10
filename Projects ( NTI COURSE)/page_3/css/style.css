@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-a{
+a ,label{
 	text-decoration: none;
 	color: #0d86bb;
 }
@@ -83,7 +83,7 @@ width: 150px;
 	float: left;
 	color: #a66748;
 }
-.third button , .forth button{
+.third button , .forth button , footer button{
 	float: right;
 	color: white;
 	background-color: #198dbe;
@@ -91,7 +91,7 @@ width: 150px;
 	width: 150px;
 	height: 35px;
 }
-.third h4{
+.third h4 ,.images h2{
 	color: #a66748;
 	margin-top: 5px;
 }
@@ -115,4 +115,41 @@ width: 150px;
 }
 .forth .images{
 	text-align: justify;
+}
+
+.images2 div{
+	width:300px;
+	padding: 1%;
+}
+.images2 h2{
+	color: #a66748;
+	margin: 2%;
+}
+.images2 a , .images2 p ,.images2 input ,.images2 label{
+	padding: 1%;
+	margin: 2%;
+}
+.images2{
+	display: flex;
+	justify-content: space-around;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+.imgtxt{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.imgtxt img{
+	width: 30%;
+}
+.imgtxt .txt div{
+	width:65%;
+	display: inline-block;
+}
+.txt i{
+	font-size: 40px;
+	color: #0d86bb;
 }
