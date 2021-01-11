@@ -93,7 +93,7 @@ width: 150px;
 	float: left;
 	color: #a66748;
 }
-.third button , .forth button , footer button{
+.third button , .forth button , footer button, form input[type=submit]{
 	float: right;
 	color: white;
 	background-color: #198dbe;
@@ -165,4 +165,58 @@ footer{
 .txt i{
 	font-size: 40px;
 	color: #0d86bb;
+}
+input{
+	width: 100%;
+}
+
+
+/*contact css*/
+
+
+.center{
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	padding: 3%;
+}
+form{
+	border-right: 1px solid black;
+}
+form , aside{
+	width: 40%;
+	padding: 1%;
+	margin: 1%;
+}
+form label,form input ,form div {
+	padding: 1%;
+	margin:1%;
+}
+aside{
+	
+}
+.iconmsg{
+	display: flex;
+	justify-content:center;
+}
+.icons{
+	background-color: #afb0b4;
+	width: 10%;
+	text-align: center;
+	margin: 0 2%;
+	height: 120px;
+}
+.icons i{
+	display: block;
+	padding: 4%;
+	margin: 4%;
+	font-size: 32px;
+	color: white;
+}
+.msg{
+	margin: 0 2%;
+}
+.color{
+	text-align: center;
+	padding: 2%;
 }
