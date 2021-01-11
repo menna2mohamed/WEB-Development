@@ -15,9 +15,16 @@ header{
 	display: flex;
 
 }
-.upleft{
-	width: 30%;
+.upleft ,article{
+flex-grow: 1;
 	
+}
+nav{
+	flex-grow: 2;
+}
+article div{
+	display: inline-block;
+	text-align: center;
 }
 nav a{
 	width: 70px;
@@ -65,6 +72,8 @@ header p{
 	justify-content: space-around;
 	padding-top: 3%;
 	padding-bottom: 3%;
+	/*position: absolute;
+	z-index: 2;*/
 }
 .content{
 width: 150px;	
@@ -77,6 +86,7 @@ width: 150px;
 	background-color: #2e3e4e;
 	width: 100%;
 	padding: 3% 7%;;
+	color: white;
 	
 }
 .third h1{
@@ -104,12 +114,12 @@ width: 150px;
 .content2{
 	width: 300px;
 }
-.forth{
+.forth ,.fifth{
 	background-color: #f6f7f9;
 	text-align: center;
 	padding: 2%;
 }
-.forth h1 , .forth h4{
+.forth h1 , .forth h4 ,.fifth h1{
 	color: #0d86bb;
 	padding:1%;
 }
@@ -133,8 +143,11 @@ width: 150px;
 	display: flex;
 	justify-content: space-around;
 }
+.fifth{
+border-top: 1px solid  #2e3e4e;
+}
 footer{
-	background-color: black;
+	background-color: #2e3e4e;
 	color: white;
 }
 .imgtxt{
