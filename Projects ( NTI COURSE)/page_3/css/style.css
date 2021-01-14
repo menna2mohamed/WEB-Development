@@ -72,8 +72,7 @@ header p{
 	justify-content: space-around;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	/*position: absolute;
-	z-index: 2;*/
+	position: relative;
 }
 .content{
 width: 150px;	
@@ -81,6 +80,8 @@ width: 150px;
 .content img{
 	background-color: #2793c2;
 	border-radius: 50%;
+	display: block;
+	margin: auto;
 }
 .third{
 	background-color: #2e3e4e;
@@ -93,7 +94,7 @@ width: 150px;
 	float: left;
 	color: #a66748;
 }
-.third button , .forth button , footer button, form input[type=submit]{
+.third button , .forth button , footer button, form input[type=submit],h5{
 	float: right;
 	color: white;
 	background-color: #198dbe;
@@ -162,7 +163,7 @@ footer{
 	width:65%;
 	display: inline-block;
 }
-.txt i{
+footer i{
 	font-size: 40px;
 	color: #0d86bb;
 }
@@ -192,30 +193,28 @@ form label,form input ,form div {
 	padding: 1%;
 	margin:1%;
 }
-aside{
-	
-}
+
 .iconmsg{
 	display: flex;
 	justify-content:center;
 }
 .icons{
 	background-color: #afb0b4;
-	width: 10%;
 	text-align: center;
-	margin: 0 2%;
-	height: 120px;
-}
-.icons i{
-	display: block;
 	padding: 4%;
-	margin: 4%;
+	width: 18%;
 	font-size: 32px;
 	color: white;
+	margin-right: 10%;
 }
-.msg{
-	margin: 0 2%;
+aside .txt{
+	width: 60%;
+  
 }
+aside .imgtxt{
+	  margin-left: 21%;
+}
+
 .color{
 	text-align: center;
 	padding: 2%;
