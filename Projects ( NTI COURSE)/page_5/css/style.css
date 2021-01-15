@@ -1,0 +1,27 @@
+body{
+  --bgyellow: #fecb10;
+}
+.data{
+	background-color: var(--bgyellow);
+}
+.data div  {
+	display: inline-block;
+	padding: 3px 10px;
+	
+}
+.data i{
+	padding: 3px 10px;
+	font-size: 22px
+}
+.txtyy{
+	color: var(--bgyellow);
+	font-size: 29px;
+}
+.txt{
+	color: white;
+	font-size: 12px;
+	margin-left: 50px;
+}
+.btn{
+	background-color: var(--bgyellow);
+}
