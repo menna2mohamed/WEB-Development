@@ -64,10 +64,15 @@ h4{
 	padding: 0;
 }
 
+.divflex{
+	display: flex;
+	flex-flow: wrap;
+
+}
 .bottom{
 	width: 40%;
-	float: left;
-	padding: 4%;
+
+	padding: 2%;
 }
 .bimg{
 	width: 200px;
