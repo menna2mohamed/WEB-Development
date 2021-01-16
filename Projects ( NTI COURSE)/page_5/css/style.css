@@ -1,5 +1,11 @@
+
 body{
   --bgyellow: #fecb10;
+	box-sizing: border-box;
+}
+.centertxt{
+	text-align: center;
+	padding: 7px;
 }
 .data{
 	background-color: var(--bgyellow);
@@ -24,4 +30,23 @@ body{
 }
 .btn{
 	background-color: var(--bgyellow);
+}
+
+.carousel-caption{
+    margin-bottom: 263px;
+}
+.content{
+	padding: 2%;
+}
+.shadowimg{
+	/*box-shadow: 10px 10px 10px yellow , -10px -10px 10px yellow ;*/
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 3%;
+	margin: auto;
+}
+.message{
+	width:90%;
+	
 }
