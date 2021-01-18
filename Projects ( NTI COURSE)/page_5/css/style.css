@@ -10,7 +10,7 @@ body{
 .data{
 	background-color: var(--bgyellow);
 }
-.data div  {
+.data div,.foottxt  {
 	display: inline-block;
 	padding: 3px 10px;
 	
@@ -49,4 +49,23 @@ body{
 .message{
 	width:90%;
 	
+}
+.footer{
+	/*background-image: url("../images/footer.png");
+	filter: brightness(70%);*/
+	background-color: black;
+	padding: 5%;
+	color: white;
+}
+.footer p{
+	width: 70%;
+    padding: 2%;
+	display: inline-block;
+}
+.footer h6{
+	border: 1px solid white ; 
+	border-radius: 50%;
+	height:70px;
+	width: 64px ;
+	display: inline-block;
 }
