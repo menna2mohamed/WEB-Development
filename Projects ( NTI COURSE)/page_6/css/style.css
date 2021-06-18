@@ -1,0 +1,130 @@
+*{
+   margin:0px;
+   padding:0px;	
+}
+body{
+height:2500px;
+
+
+}
+.container{
+width:1170px;
+margin:auto;
+color:#fff;	
+overflow:hidden;
+
+}
+
+header{
+	background-color:rgba(0,0,102,1);
+	overflow:hidden;
+}
+
+.logo{
+	width:100px;
+	height:100px;
+	float:left;
+}
+.logo img{
+	width:100px;
+	height:100px;
+}
+
+nav{
+	width:1000px;
+	float:right;
+	text-align:right;
+}
+nav ul li{
+	display:inline-block;
+	padding-left:20px;
+	
+}
+nav ul li a{
+	color:#fff;
+	line-height:100px;
+	text-decoration:none;
+	
+	
+}
+
+nav ul li a:hover{
+	color:rgba(204,153,51,1);
+
+	
+	
+}
+.product{
+	background-color:#fff;
+}
+.feat{
+	width:21%;
+	padding:3% 1%;
+	margin:2px 1%;
+	float:left;
+	color:#000;
+
+}
+
+.feat img{
+	display:block;
+	margin:auto;
+}
+
+.feat h2, .feat h4{
+	text-align:center;
+	margin:20px 0px;
+}
+.feat button{
+	padding:5px;
+	display:block;
+	margin:auto;
+}
+
+.images{
+background-color:rgba(0,102,255,1);	
+padding-bottom:30px;
+}
+
+.images h3 , .images h6{
+	text-align:center;
+	padding:20px;
+}
+
+.containerimg{
+	
+	width:1000px;
+	margin:auto;
+}
+.containerimg img{
+	width:196px;
+	height:200px;
+	
+}
+
+.bul{
+	width:50px;
+	margin:auto;
+}
+.des{
+	background-color:#fff;
+}
+
+.content{
+	width:42%;
+	float:left;
+	color:#000;
+	padding:4%;
+}
+
+.content img{
+	width:100%;
+}
+
+.content button{
+	padding:8px 15px;
+	background-color:rgba(0,102,204,1);
+	color:#fff;
+	display:block;
+	margin-top:20px;
+}
